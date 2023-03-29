@@ -1,0 +1,109 @@
+body{
+    background-color: #202020;
+    color: white;
+        
+}
+
+.br1
+{
+    margin-top: 50px;
+}
+
+:root {
+    --bgcolor: rgba(255, 5, 5, 0.5);
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-header {
+    background-color: var(--bgcolor);
+    padding: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #9b0f0f);
+    background: linear-gradient(to right, #000000, #9b0f0f);
+}
+
+.logo {
+    color: white;
+    align-self: center;
+    margin-left: 1.2rem;
+    font-size: 2.5rem;
+}
+
+.nav-bar {
+    margin: 0px 2vh 0px 0px;
+    align-self: center;
+}
+
+.nav-bar a {
+    color: white;
+    padding: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-bar :hover {
+    height: 100px;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.24);
+    transition: 500ms
+}
+
+.menu-icon {
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+button {
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.9rem;
+}
+
+@media screen and (max-width: 700px) {
+    .nav-bar {
+        display: none;
+        position: absolute;
+        top: 3.7rem;
+        left: 0;
+        width: 100%;
+        background-color: var(--bgcolor);
+        text-align: center;
+    }
+
+    .nav-bar.responsive {
+        display: block;
+    }
+
+    .nav-bar a {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+        z-index: 1;
+    }
+
+    button {
+        padding: 0.4rem;
+    }
+
+    .logo {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+.kep {
+    height: 550px;
+}
